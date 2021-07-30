@@ -25,8 +25,8 @@
                     <img class="image lazyload" width="80" height="80"   data-srcset="/assets/img/carmodels/models/Mercedes.webp" alt="Автосервис | Ремонт Mercedes">
                     <img class="image lazyload" width="80" height="80"   data-srcset="/assets/img/carmodels/models/Mitsubishi.webp" alt="Автосервис | Ремонт Mitsubushi">
                     <img class="image lazyload" width="80" height="80"   data-srcset="/assets/img/carmodels/models/Nissan.webp" alt="Автосервис | Ремонт Nissan">
-                    <img class="image lazyload" width="80" height="80"   data-srcset="/assets/img/carmodels/models/Opel.webp" alt="Автосервис | Ремонт Opel">
-                    <img class="image lazyload" width="80" height="80"   data-srcset="/assets/img/carmodels/models/Peugeot.webp" alt="Автосервис | Ремонт Peugeot">
+                    <!--<img class="image lazyload" width="80" height="80"   data-srcset="/assets/img/carmodels/models/Opel.webp" alt="Автосервис | Ремонт Opel">-->
+                    <!--<img class="image lazyload" width="80" height="80"   data-srcset="/assets/img/carmodels/models/Peugeot.webp" alt="Автосервис | Ремонт Peugeot">-->
                     <img class="image lazyload" width="80" height="80"   data-srcset="/assets/img/carmodels/models/Renault.webp" alt="Автосервис | Ремонт Renault">
                     <img class="image lazyload" width="80" height="80"   data-srcset="/assets/img/carmodels/models/Seat.webp" alt="Автосервис | Ремонт Seat">
                     <img class="image lazyload" width="80" height="80"   data-srcset="/assets/img/carmodels/models/Skoda.webp" alt="Автосервис | Ремонт Skoda">

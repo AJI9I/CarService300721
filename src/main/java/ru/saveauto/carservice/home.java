@@ -67,7 +67,7 @@ public class home {
 
         return "contacts";}
 
-    //Слесарный ремонт
+    //Конкурс
     @GetMapping("/competition_1")
     private String competition_1(Model model){
 
@@ -161,9 +161,9 @@ public class home {
 
         List<ModelShin> ms = GetPriceShin(type,rad);
         model.addAttribute("Price", ms);
-
+        String typeString =  type == "legkovoy"?"Легковой":"Кроссовер";
         MetaTitle metaTitle = new MetaTitle(
-                "Шиномонтаж "+ms.get(0).Rad+" | SaveAuto74",
+                "Шиномонтаж "+typeString+ms.get(0).Rad+" | SaveAuto74",
                 "Шиномонтаж "+ms.get(0).Name+" колес "+ms.get(0).Rad+". Звоните ☎ +7 982 271-94-16",
                 "Шиномонтаж "+ms.get(0).Rad
         );

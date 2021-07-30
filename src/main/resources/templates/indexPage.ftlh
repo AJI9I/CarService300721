@@ -5,16 +5,24 @@
 <#import  "parts/advantages.ftlh" as a>
 <#import  "parts/carmodels.ftlh" as h>
 <#import  "parts/videoblok.ftlh" as v>
+<#import  "parts/buttonphone.ftlh" as buttonPhone>
+<#import  "parts/attention.ftlh" as attention>
 
 <@i.page>
     <!--noindex-->
 <#--    <@calc.shincalculator/>-->
     <!--/noindex-->
+
+    <!--
     <div class="grid-container">
     <div class="home-text">
         <p align="justify" style="text-indent: 20px;">Конкурс для подписчиков автосервиса SaveAuto74 Instagramm и ВКонтакте 6 призов на сумму 14 000. <a href="/competition_1">Читать подробности.</a></p>
     </div>
     </div>
+    -->
+
+
+<@attention.attention/>
     <div class="grid-container">
         <div class="home-text">
             <h1>Автосервис в Миассе | SaveAuto74</h1>
@@ -44,7 +52,13 @@
             </div>
         </div>
     </div>
+    <@buttonPhone.phoneDiagnostic/>
     <@h.carmark/>
+    <@buttonPhone.phoneRemont/>
+    <@buttonPhone.phoneWhatsapp/>
+    <@buttonPhone.phoneViber/>
+    <@buttonPhone.phoneTelegramm/>
+
     <div class="grid-container">
         <div class="home-text">
 
@@ -61,6 +75,7 @@
     </div>
 
     <@u.uslugi/>
+    <@buttonPhone.phoneCeni/>
     <@v.videoblok/>
     <!--noindex-->
     <@a.advantages/>

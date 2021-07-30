@@ -32,7 +32,7 @@
 
                 <span>
                             <div>Координаты</div>
-                            55.129569, 60.143019
+                            55°07'46.5"N 60°08'34.9"E
                 </span>
             </div>
             <div class="row route">
@@ -46,7 +46,7 @@
             </div>
             <div class="row working-hours">
                 <i class="far fa-clock"></i>
-                Пн - Вс:  &nbsp; 10:00 — 21:00
+                Пн - Вс:  &nbsp; 10:00 — 19:00
             </div>
         </div>
         <div class="cell medium-6 map" data-map="55.129569, 60.143019">
