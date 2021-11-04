@@ -8,8 +8,6 @@
     <html lang="ru">
     <head>
 
-
-
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 <#--        <title>Автосервис Шиномонтаж Миасс. Ремонт автомобилей в Миассе</title>-->
@@ -28,36 +26,24 @@
         <meta property="og:type" content="article">
         <meta property="og:url" content="saveauto74.ru">
         <meta property="og:description" content="<#if title??>${title.description}<#else > Автосервис Миасс!</#if>">
-        <meta property="og:site_name" content="Автосервис и Шиномонтаж в Миассе | SaveAuto74">
-
-
-
+        <meta property="og:site_name" content="Автосервис | SaveAuto74">
 
         <meta name="twitter:title" content="<#if title??>${title.title}<#else > Автосервис Миасс!</#if>"/>
         <meta name="twitter:description" content="<#if title??>${title.description}<#else > Автосервис Миасс!</#if>"/>
 <#--        @import url(/assets/fonts/icomoon/style.css);-->
 
-
         <link rel="preload" href="/assets/fonts/icomoon/fonts/icomoon.ttf?e9or66" as="font" type="font/ttf" crossorigin="anonymous">
         <link rel="preload" href="/assets/fonts/Formular-Medium.otf" as="font" type="font/otf" crossorigin="anonymous">
         <link rel="preload" href="/assets/fonts/SF-Pro-Display-Regular.otf" as="font" type="font/ttf" crossorigin="anonymous">
-
-
 
         <script src="http://code.jquery.com/jquery-latest.js"></script>
 
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
         <script src="https://kit.fontawesome.com/61adac965a.js" crossorigin="anonymous"></script>
 
-
-
-
-
         <link rel="shortcut icon" href="/favicon.png"/>
         <meta name="yandex-verification" content="507ff9a5933c384e" />
         <meta name="google-site-verification" content="TTYQvWafYML-DCF7VWK88E-LtuSyBPlNAqnS6aVtlfk" />
-
-
 
         <script src="/assets/js/lazysizes.min.js" async></script>
 
@@ -105,7 +91,7 @@
                 </div>
                 <div class="messengers-outer">
                     <div class="messengers">
-                        <a rel="nofollow" title="Записаться через Telegram" href="http://t.me/save_avto_74" target="_blank"><i class="fab fa-telegram"> </i></a>
+                        <a rel="nofollow" title="Записаться через Telegram" href="http://t.me/save_auto_74" target="_blank"><i class="fab fa-telegram"> </i></a>
                         <a rel="nofollow" title="Записаться через Viber" href="viber://chat?number=79822719416" target="_blank"><i class="fab fa-viber"> </i></a>
                         <a rel="nofollow" title="Записаться через Whatsapp" href="https://wa.me/79822719416" target="_blank"><i class="fab fa-whatsapp"> </i></a>
                     </div>

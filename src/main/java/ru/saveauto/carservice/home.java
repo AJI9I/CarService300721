@@ -1,20 +1,28 @@
 package ru.saveauto.carservice;
 
+
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.*;
+
+import org.w3c.dom.Document;
+import org.w3c.dom.Element;
+import org.w3c.dom.Node;
 import ru.saveauto.carservice.model.MetaTitle;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
+import javax.xml.parsers.DocumentBuilder;
+import javax.xml.parsers.DocumentBuilderFactory;
+
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-@Controller
 
+@Controller
 public class home {
 
     @RequestMapping(value = "/robots.txt")
@@ -25,7 +33,59 @@ public class home {
             //CustomLogger.info(TAG, "robots", "robots(): "+e.getMessage());
         }
     }
+/*
+    //Домашняя страница
+    @GetMapping("/sitemap.xml")
+    private void Sitemap(HttpServletRequest request, HttpServletResponse response){
 
+
+        try {
+
+            DocumentBuilderFactory factory = DocumentBuilderFactory.newInstance();
+            DocumentBuilder builder = factory.newDocumentBuilder();
+            Document document = builder.newDocument();
+
+            Element root = document.createElement("root");
+            document.appendChild(root);
+
+            response.getWriter().write(document.getInputEncoding());
+            int i = 0;
+
+
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+
+        //response.getWriter().write(doc.getXmlVersion());
+    }
+*/
+    // метод для создания нового узла XML-файла
+    private Node getLanguage(Document doc, String id, String name, String age) {
+        Element language = doc.createElement("Language");
+
+        // устанавливаем атрибут id
+        language.setAttribute("id", id);
+
+        // создаем элемент name
+        language.appendChild(getLanguageElements(doc, language, "name", name));
+
+        // создаем элемент age
+        language.appendChild(getLanguageElements(doc, language, "age", age));
+        return language;
+    }
+
+
+    // утилитный метод для создание нового узла XML-файла
+    private Node getLanguageElements(Document doc, Element element, String name, String value) {
+        Element node = doc.createElement(name);
+        node.appendChild(doc.createTextNode(value));
+        return node;
+    }
+
+
+
+
+/*
     //Домашняя страница
     @GetMapping("/")
     private String main(Model model){
@@ -38,6 +98,8 @@ public class home {
         model.addAttribute("title",metaTitle);
         return "indexPage";
     }
+*/
+
 
 
 
@@ -59,13 +121,13 @@ public class home {
     private String contacts(Model model){
 
         MetaTitle metaTitle = new MetaTitle(
-                "Аддрес и телефон автосервиса в Миассе | SaveAuto74",
-                "Аддрес автосервиса: Миасс ГСК Южный 2а. Телефон: ☎ +7 982 271-94-16. Вы можете перйти на сайт и построит маршрут по карте до автосервиса.",
-                "Контакты телефон аддрес автосервис Миасс"
+                "Адрес и телефон автосервиса в Миассе | SaveAuto74",
+                "Адрес автосервиса: Миасс ГСК Южный 2а. Телефон: ☎ +7 982 271-94-16. Вы можете перйти на сайт и построит маршрут по карте до автосервиса.",
+                "Контакты, телефон, адрес, автосервис, Миасс"
         );
         model.addAttribute("title",metaTitle);
 
-        return "contacts";}
+        return "contactsNew";}
 
     //Конкурс
     @GetMapping("/competition_1")
@@ -163,7 +225,7 @@ public class home {
         model.addAttribute("Price", ms);
         String typeString =  type == "legkovoy"?"Легковой":"Кроссовер";
         MetaTitle metaTitle = new MetaTitle(
-                "Шиномонтаж "+typeString+ms.get(0).Rad+" | SaveAuto74",
+                "Шиномонтаж "+typeString+" "+ms.get(0).Rad+" | SaveAuto74",
                 "Шиномонтаж "+ms.get(0).Name+" колес "+ms.get(0).Rad+". Звоните ☎ +7 982 271-94-16",
                 "Шиномонтаж "+ms.get(0).Rad
         );

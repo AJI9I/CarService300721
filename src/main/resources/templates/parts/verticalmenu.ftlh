@@ -43,7 +43,7 @@
         </div>
         <div class="messengers">
             <#--                <a href="tg://resolve?domain=@save_avto_74"><i class="fab fa-telegram"> </i></a>-->
-            <a rel="nofollow" title="Записаться через Telegram" href="http://t.me/save_avto_74" target="_blank"><i class="fab fa-telegram"> </i></a>
+            <a rel="nofollow" title="Записаться через Telegram" href="http://t.me/save_auto_74" target="_blank"><i class="fab fa-telegram"> </i></a>
             <a rel="nofollow" title="Записаться через Viber" href="viber://chat?number=79822719416" target="_blank"><i class="fab fa-viber"> </i></a>
             <a rel="nofollow" title="Записаться через Whatsapp" href="https://wa.me/79822719416" target="_blank"><i class="fab fa-whatsapp"> </i></a>
         </div>

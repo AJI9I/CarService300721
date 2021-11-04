@@ -11,7 +11,7 @@
     <div class="grid-container">
         <div class="home-text">
     <!--<form action="tel:+79822719416" class="button btn-block" ><button type="submit"><i class="fas fa-phone" aria-hidden="true"> </i>&nbsp;Записаться в автосервис на диагностику</button></form>-->
-            <button type="submit" class="button" onclick="window.location='tel:+79822719416';"><i class="fas fa-phone" aria-hidden="true"> </i>&nbsp;Записаться в автосервис на диагностику</button>
+            <button type="submit" class="button" onclick="window.location='tel:+79822719416';"><i class="fas fa-phone" aria-hidden="true"> </i>&nbsp;Записаться по телефону в автосервис на диагностику</button>
         </div>
     </div>
 </#macro>
@@ -49,7 +49,7 @@
     <div class="grid-container">
         <div class="home-text">
             <!--<form action="tel:+79822719416" class="button btn-block" ><button type="submit"><i class="fas fa-phone" aria-hidden="true"> </i>&nbsp;Узнать цены на услуги автосервиса</button></form>-->
-            <button type="submit" class="button" onclick="window.location='http://t.me/save_avto_74';"><i class="fab fa-telegram"> </i>&nbsp;Задать нам вопрос через Telegramm</button>
+            <button type="submit" class="button" onclick="window.location='http://t.me/save_auto_74';"><i class="fab fa-telegram"> </i>&nbsp;Задать нам вопрос через Telegramm</button>
         </div>
     </div>
 </#macro>

@@ -16,14 +16,14 @@
                 </span>
             </div>
             <div class="row">
-                <a title="Записаться через Telegram" href="http://t.me/save_avto_74" target="_blank"><i class="fab fa-telegram" style="margin: 0;font-size: 31px;"> </i></a>
+                <a title="Записаться через Telegram" href="http://t.me/save_auto_74" target="_blank"><i class="fab fa-telegram" style="margin: 0;font-size: 31px;"> </i></a>
                 <a title="Записаться через Viber" href="viber://chat?number=79822719416" target="_blank"><i class="fab fa-viber" style="margin: 0;font-size: 31px;"> </i></a>
                 <a title="Записаться через Whatsapp" href="https://wa.me/79822719416" target="_blank"><i class="fab fa-whatsapp" style="margin: 0;font-size: 31px;"> </i></a>
             </div>
             <div class="row address">
                 <i class="fas fa-map-marker-alt"></i>
                 <span>
-                    Миасс,  ГСК Южный-2а
+                    Миасс,  ГСК Южный-2а, начало машгородка, не далеко от бывшего ГМ Карусель
                 </span>
             </div>
             <div class="row address">

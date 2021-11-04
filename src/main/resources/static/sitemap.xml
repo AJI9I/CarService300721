@@ -9,7 +9,7 @@
 
 <url>
   <loc>https://saveauto74.ru</loc>
-  <lastmod>2021-05-13T21:30:45+00:00</lastmod>
+  <lastmod>2021-10-23T21:30:45+00:00</lastmod>
   <priority>1.00</priority>
 </url>
   <url>
@@ -17,14 +17,56 @@
     <lastmod>2021-04-28T21:30:45+00:00</lastmod>
     <priority>0.80</priority>
   </url>
-<url>
-  <loc>https://saveauto74.ru/contacts</loc>
-  <lastmod>2021-04-27T13:30:45+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
+  <url>
+    <loc>https://saveauto74.ru/contacts</loc>
+    <lastmod>2021-10-23T13:30:45+00:00</lastmod>
+    <priority>0.80</priority>
+  </url>
   <url>
     <loc>https://saveauto74.ru/competition_1</loc>
     <lastmod>2021-05-13T13:30:45+00:00</lastmod>
     <priority>0.80</priority>
+  </url>
+
+  <url>
+    <loc>https://saveauto74.ru/diagnostika_dvigatelja</loc>
+    <lastmod>2021-10-11T21:30:45+00:00</lastmod>
+    <priority>1</priority>
+  </url>
+<url>
+  <loc>https://saveauto74.ru/diagnostika_hodovoj</loc>
+  <lastmod>2021-10-11T21:30:45+00:00</lastmod>
+  <priority>1</priority>
+</url>
+  <url>
+    <loc>https://saveauto74.ru/kapitalnyj_remont_dvigatelja</loc>
+    <lastmod>2021-10-11T21:30:45+00:00</lastmod>
+    <priority>1</priority>
+  </url>
+
+  <url>
+    <loc>https://saveauto74.ru/remont_hodovoj_chasti</loc>
+    <lastmod>2021-10-11T21:30:45+00:00</lastmod>
+    <priority>1</priority>
+  </url>
+  <url>
+    <loc>https://saveauto74.ru/svarochnye_raboty</loc>
+    <lastmod>2021-10-11T21:30:45+00:00</lastmod>
+    <priority>1</priority>
+  </url>
+  <url>
+    <loc>https://saveauto74.ru/tehnicheskoe_obsluzhivanie</loc>
+    <lastmod>2021-10-11T21:30:45+00:00</lastmod>
+    <priority>1</priority>
+  </url>
+  <url>
+    <loc>https://saveauto74.ru/zamena_zhidkosti</loc>
+    <lastmod>2021-10-11T21:30:45+00:00</lastmod>
+    <priority>1</priority>
+  </url>
+  <url>
+    <loc>https://saveauto74.ru/shinomontag</loc>
+    <lastmod>2021-10-23T21:30:45+00:00</lastmod>
+    <priority>1</priority>
   </url>
 </urlset>

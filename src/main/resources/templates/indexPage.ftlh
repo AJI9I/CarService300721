@@ -52,12 +52,27 @@
             </div>
         </div>
     </div>
+    <!--noindex-->
+    <@contact.contactblock/>
+    <!--/noindex-->
     <@buttonPhone.phoneDiagnostic/>
     <@h.carmark/>
-    <@buttonPhone.phoneRemont/>
-    <@buttonPhone.phoneWhatsapp/>
-    <@buttonPhone.phoneViber/>
-    <@buttonPhone.phoneTelegramm/>
+    
+    <div class="grid-container">
+        <div class="home-text">
+            <div class="grid-x grid-margin-x">
+                <div class="cell large-6">
+                    <@buttonPhone.phoneRemont/>
+                    <@buttonPhone.phoneWhatsapp/>
+                </div>
+                <div class="cell large-6">
+                    <@buttonPhone.phoneViber/>
+                    <@buttonPhone.phoneTelegramm/>
+                </div>
+            </div>
+        </div>
+    </div>
+
 
     <div class="grid-container">
         <div class="home-text">
@@ -79,6 +94,6 @@
     <@v.videoblok/>
     <!--noindex-->
     <@a.advantages/>
-    <@contact.contactblock/>
     <!--/noindex-->
+
 </@i.page>
